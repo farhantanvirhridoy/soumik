@@ -1,0 +1,88 @@
+:root {
+  color-scheme: dark;
+  --ink: #f0eee7;
+  --paper: #171815;
+  --line: rgba(240, 238, 231, .18);
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.page-glow {
+  opacity: .14;
+}
+
+.noise {
+  opacity: .08;
+}
+
+.hero-foot {
+  color: #b4b1a8;
+}
+
+.scroll-line {
+  background: #8d8a81;
+}
+
+.button-dark {
+  background: var(--ink);
+  color: #171815;
+}
+
+.work {
+  background: #20211d;
+  color: var(--ink);
+}
+
+.project {
+  color: var(--ink);
+}
+
+.resume {
+  background: #20221e;
+  color: var(--ink);
+}
+
+.timeline-item p {
+  color: #b4b1a8;
+}
+
+.hobby {
+  background: #25271f;
+  color: var(--ink);
+}
+
+.music {
+  background: #3a3b34;
+}
+
+footer {
+  background: #10110f;
+  color: var(--ink);
+}
+
+.award-list .award-name {
+  font-weight: 400;
+}
+
+.footer-top .brand {
+  color: var(--ink);
+}
+
+.socials a,
+.footer-bottom a {
+  color: var(--ink);
+}
+
+@media (max-width: 760px) {
+  .nav-links {
+    background: var(--paper);
+  }
+
+  .award-list .award-name {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+}
